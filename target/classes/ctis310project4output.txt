@@ -1,0 +1,188 @@
+How many students do you want to create? (Minimum is 10)
+10
+
+Unsorted array of students
+Students{name='Jasmine Smith', major='Chemistry', age=21, studentid=7971098}
+Students{name='Jim Smith', major='Philosophy', age=26, studentid=4009848}
+Students{name='Jasmine Moore', major='Physics', age=24, studentid=5147721}
+Students{name='Jasmine Miller', major='Chemistry', age=22, studentid=2350033}
+Students{name='Jared Taylor', major='History', age=24, studentid=8141885}
+Students{name='John Johnson', major='Chemistry', age=27, studentid=7971098}
+Students{name='Jack Taylor', major='Sociology', age=18, studentid=8141885}
+Students{name='Joe Smith', major='Biology', age=25, studentid=4439129}
+Students{name='Joe Johnson', major='Chemistry', age=23, studentid=5147721}
+Students{name='Jasmine Johnson', major='English', age=25, studentid=2440733}
+
+Sorted array of students by studentid
+Selection sort took 3863.587 milliseconds
+Students{name='Jasmine Miller', major='Chemistry', age=22, studentid=2350033}
+Students{name='Jasmine Johnson', major='English', age=25, studentid=2440733}
+Students{name='Jim Smith', major='Philosophy', age=26, studentid=4009848}
+Students{name='Joe Smith', major='Biology', age=25, studentid=4439129}
+Students{name='Jasmine Moore', major='Physics', age=24, studentid=5147721}
+Students{name='Joe Johnson', major='Chemistry', age=23, studentid=5147721}
+Students{name='Jasmine Smith', major='Chemistry', age=21, studentid=7971098}
+Students{name='John Johnson', major='Chemistry', age=27, studentid=7971098}
+Students{name='Jack Taylor', major='Sociology', age=18, studentid=8141885}
+Students{name='Jared Taylor', major='History', age=24, studentid=8141885}
+Linear search took 0.5945 milliseconds
+Linear search did not find 4616258
+Binary search took 1.0927 milliseconds
+Binary search did not find 4616258
+
+Sorted array of students by age
+Selection sort took 1.8199 milliseconds
+Students{name='Jack Taylor', major='Sociology', age=18, studentid=8141885}
+Students{name='Jasmine Smith', major='Chemistry', age=21, studentid=7971098}
+Students{name='Jasmine Miller', major='Chemistry', age=22, studentid=2350033}
+Students{name='Joe Johnson', major='Chemistry', age=23, studentid=5147721}
+Students{name='Jared Taylor', major='History', age=24, studentid=8141885}
+Students{name='Jasmine Moore', major='Physics', age=24, studentid=5147721}
+Students{name='Jasmine Johnson', major='English', age=25, studentid=2440733}
+Students{name='Joe Smith', major='Biology', age=25, studentid=4439129}
+Students{name='Jim Smith', major='Philosophy', age=26, studentid=4009848}
+Students{name='John Johnson', major='Chemistry', age=27, studentid=7971098}
+Linear search took 0.0134 milliseconds
+Linear search did not find 20
+Binary search took 0.0106 milliseconds
+Binary search did not find 20
+
+Sorted array of students by last name
+Selection sort took 0.6241 milliseconds
+Students{name='John Johnson', major='Chemistry', age=27, studentid=7971098}
+Students{name='Joe Johnson', major='Chemistry', age=23, studentid=5147721}
+Students{name='Jasmine Johnson', major='English', age=25, studentid=2440733}
+Students{name='Jasmine Miller', major='Chemistry', age=22, studentid=2350033}
+Students{name='Jasmine Moore', major='Physics', age=24, studentid=5147721}
+Students{name='Joe Smith', major='Biology', age=25, studentid=4439129}
+Students{name='Jim Smith', major='Philosophy', age=26, studentid=4009848}
+Students{name='Jasmine Smith', major='Chemistry', age=21, studentid=7971098}
+Students{name='Jared Taylor', major='History', age=24, studentid=8141885}
+Students{name='Jack Taylor', major='Sociology', age=18, studentid=8141885}
+Linear search took 0.0293 milliseconds
+Linear search found Smith at index 5
+Binary search took 0.0405 milliseconds
+Binary search found Smith at index 7
+
+Sorted array of students by first name
+Selection sort took 1.2373 milliseconds
+Students{name='Jack Taylor', major='Sociology', age=18, studentid=8141885}
+Students{name='Jared Taylor', major='History', age=24, studentid=8141885}
+Students{name='Jasmine Moore', major='Physics', age=24, studentid=5147721}
+Students{name='Jasmine Miller', major='Chemistry', age=22, studentid=2350033}
+Students{name='Jasmine Smith', major='Chemistry', age=21, studentid=7971098}
+Students{name='Jasmine Johnson', major='English', age=25, studentid=2440733}
+Students{name='Jim Smith', major='Philosophy', age=26, studentid=4009848}
+Students{name='Joe Johnson', major='Chemistry', age=23, studentid=5147721}
+Students{name='Joe Smith', major='Biology', age=25, studentid=4439129}
+Students{name='John Johnson', major='Chemistry', age=27, studentid=7971098}
+Linear search took 0.0168 milliseconds
+Linear search found John at index 9
+Binary search took 0.0126 milliseconds
+Binary search found John at index 9
+
+Sorted array of students by major
+Selection sort took 0.5547 milliseconds
+Students{name='Joe Smith', major='Biology', age=25, studentid=4439129}
+Students{name='John Johnson', major='Chemistry', age=27, studentid=7971098}
+Students{name='Jasmine Smith', major='Chemistry', age=21, studentid=7971098}
+Students{name='Jasmine Miller', major='Chemistry', age=22, studentid=2350033}
+Students{name='Joe Johnson', major='Chemistry', age=23, studentid=5147721}
+Students{name='Jasmine Johnson', major='English', age=25, studentid=2440733}
+Students{name='Jared Taylor', major='History', age=24, studentid=8141885}
+Students{name='Jim Smith', major='Philosophy', age=26, studentid=4009848}
+Students{name='Jasmine Moore', major='Physics', age=24, studentid=5147721}
+Students{name='Jack Taylor', major='Sociology', age=18, studentid=8141885}
+Linear search took 0.0183 milliseconds
+Linear search did not find Computer Science
+Binary search took 0.0147 milliseconds
+Binary search did not find Computer Science
+
+Sorted array of students by studentid
+Quick sort took 1.1788 milliseconds
+Students{name='Jasmine Miller', major='Chemistry', age=22, studentid=2350033}
+Students{name='Jasmine Johnson', major='English', age=25, studentid=2440733}
+Students{name='Jim Smith', major='Philosophy', age=26, studentid=4009848}
+Students{name='Joe Smith', major='Biology', age=25, studentid=4439129}
+Students{name='Jasmine Moore', major='Physics', age=24, studentid=5147721}
+Students{name='Joe Johnson', major='Chemistry', age=23, studentid=5147721}
+Students{name='John Johnson', major='Chemistry', age=27, studentid=7971098}
+Students{name='Jasmine Smith', major='Chemistry', age=21, studentid=7971098}
+Students{name='Jared Taylor', major='History', age=24, studentid=8141885}
+Students{name='Jack Taylor', major='Sociology', age=18, studentid=8141885}
+
+Sorted array of students by age
+Quick sort took 3.0522 milliseconds
+Students{name='Jack Taylor', major='Sociology', age=18, studentid=8141885}
+Students{name='Jasmine Smith', major='Chemistry', age=21, studentid=7971098}
+Students{name='Jasmine Miller', major='Chemistry', age=22, studentid=2350033}
+Students{name='Joe Johnson', major='Chemistry', age=23, studentid=5147721}
+Students{name='Jasmine Moore', major='Physics', age=24, studentid=5147721}
+Students{name='Jared Taylor', major='History', age=24, studentid=8141885}
+Students{name='Joe Smith', major='Biology', age=25, studentid=4439129}
+Students{name='Jasmine Johnson', major='English', age=25, studentid=2440733}
+Students{name='Jim Smith', major='Philosophy', age=26, studentid=4009848}
+Students{name='John Johnson', major='Chemistry', age=27, studentid=7971098}
+
+Sorted array of students by last name
+Quick sort took 4.954 milliseconds
+Students{name='John Johnson', major='Chemistry', age=27, studentid=7971098}
+Students{name='Joe Johnson', major='Chemistry', age=23, studentid=5147721}
+Students{name='Jasmine Johnson', major='English', age=25, studentid=2440733}
+Students{name='Jasmine Miller', major='Chemistry', age=22, studentid=2350033}
+Students{name='Jasmine Moore', major='Physics', age=24, studentid=5147721}
+Students{name='Joe Smith', major='Biology', age=25, studentid=4439129}
+Students{name='Jim Smith', major='Philosophy', age=26, studentid=4009848}
+Students{name='Jasmine Smith', major='Chemistry', age=21, studentid=7971098}
+Students{name='Jared Taylor', major='History', age=24, studentid=8141885}
+Students{name='Jack Taylor', major='Sociology', age=18, studentid=8141885}
+
+Sorted array of students by first name
+Quick sort took 6.9905 milliseconds
+Students{name='Jack Taylor', major='Sociology', age=18, studentid=8141885}
+Students{name='Jared Taylor', major='History', age=24, studentid=8141885}
+Students{name='Jasmine Miller', major='Chemistry', age=22, studentid=2350033}
+Students{name='Jasmine Moore', major='Physics', age=24, studentid=5147721}
+Students{name='Jasmine Johnson', major='English', age=25, studentid=2440733}
+Students{name='Jasmine Smith', major='Chemistry', age=21, studentid=7971098}
+Students{name='Jim Smith', major='Philosophy', age=26, studentid=4009848}
+Students{name='Joe Johnson', major='Chemistry', age=23, studentid=5147721}
+Students{name='Joe Smith', major='Biology', age=25, studentid=4439129}
+Students{name='John Johnson', major='Chemistry', age=27, studentid=7971098}
+
+Sorted array of students by major
+Quick sort took 10.6327 milliseconds
+Students{name='Joe Smith', major='Biology', age=25, studentid=4439129}
+Students{name='Jasmine Smith', major='Chemistry', age=21, studentid=7971098}
+Students{name='John Johnson', major='Chemistry', age=27, studentid=7971098}
+Students{name='Joe Johnson', major='Chemistry', age=23, studentid=5147721}
+Students{name='Jasmine Miller', major='Chemistry', age=22, studentid=2350033}
+Students{name='Jasmine Johnson', major='English', age=25, studentid=2440733}
+Students{name='Jared Taylor', major='History', age=24, studentid=8141885}
+Students{name='Jim Smith', major='Philosophy', age=26, studentid=4009848}
+Students{name='Jasmine Moore', major='Physics', age=24, studentid=5147721}
+Students{name='Jack Taylor', major='Sociology', age=18, studentid=8141885}
+
+Selection sort by studentid  took 3863.587 milliseconds
+Selection sort by age        took 1.8199 milliseconds
+Selection sort by last name  took 0.6241 milliseconds
+Selection sort by first name took 1.2373 milliseconds
+Selection sort by major      took 0.5547 milliseconds
+
+Quick sort by studentid  took 1.1788 milliseconds
+Quick sort by age        took 3.0522 milliseconds
+Quick sort by last name  took 4.954 milliseconds
+Quick sort by first name took 6.9905 milliseconds
+Quick sort by major      took 10.6327 milliseconds
+
+Linear search by studentid  took 0.5945 milliseconds
+Linear search by age        took 0.0134 milliseconds
+Linear search by last name  took 0.0293 milliseconds
+Linear search by first name took 0.0168 milliseconds
+Linear search by major      took 0.0183 milliseconds
+
+Binary search by studentid  took 1.0927 milliseconds
+Binary search by age        took 0.0106 milliseconds
+Binary search by last name  took 0.0405 milliseconds
+Binary search by first name took 0.0126 milliseconds
+Binary search by major      took 0.0147 milliseconds
